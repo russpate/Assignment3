@@ -187,6 +187,7 @@ i {
     text-decoration: none;
     padding: 10px 10px 10px 0;
     margin-right:2%;
+    transition:.2s all;
 }
 .shareLinks a:hover{
     background-color:#106DB3;
@@ -223,7 +224,7 @@ ul.authorSocial li {
     padding:0 3%;
 }
 .authorInfo img {
-    /border-radius: 100%;
+    border-radius: 100%;
     width:inherit;
 }
 span.authorInfo, span.advert {
