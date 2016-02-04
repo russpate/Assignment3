@@ -4,7 +4,7 @@
   margin:0;
   padding:0;
   font-size:100%;
-  border:1px solid red;
+  /*border:1px solid red;*/
 }
 .container{
   margin:auto 0;
@@ -82,11 +82,11 @@ ul.logo{
     padding-right: 10px;
     width:50px;
 }
-ul.navigation{
+header ul.navigation{
   float:right;
   padding-top:2%;
 }
-ul.navigation li {
+header ul.navigation li {
   padding-left: 20px;
   font-family: 'Oswald', sans-serif;
 }
@@ -133,8 +133,40 @@ ul.navigation li {
   height:10px;
   border-radius:100%;
 }
-.sidebar img {
-    width: 150px;
-    height: 150px;
+.authorInfo img {
+    width: 75px;
+    height: 75px;
     border-radius: 100%;
+}
+span.authorInfo, span.advert {
+    margin: 0 auto;
+    text-align: center;
+}
+.authorInfo li, span.advert{
+  display:block;
+}
+.advert img{
+  width:80%;
+}
+
+.popPostTitle h1 {
+  text-align: center;
+  padding: 3% 0;
+  border-top: 1px solid #E2E1E1;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+}
+
+footer{
+  background-color:blue;
+}
+footer li{
+  display:inline;
+}
+.TIYlogo{
+  float:left;
+}
+footer ul.navigation{
+  float:right;
 }
