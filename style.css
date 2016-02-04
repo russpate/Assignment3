@@ -298,21 +298,35 @@ span.advert{
 }
 footer{
     background-color:#083452;
-    padding:3% 0;
     color: #638694;
     font-size: .9em;
+}
+.footerWrap{
+  padding:3% 0;
 }
 footer li{
     display:inline;
 }
-.TIYlogo{
-    float:left;
+.TIYlogoWrap{
+    position:relative;
 }
-footer ul.navigation{
-    float:right;
+.TIYlogo img{
+  width:50px;
+  vertical-align:middle;
 }
-footer ul.navigation a {
+.TIYlogo a{
+  margin-right:2%;
+}
+span.footer-navigation{
+  position:absolute;
+  right:0;
+  top:10px;
+}
+span.footer-navigation a {
     text-decoration: none;
     color: #638694;
     padding-left: 10px;
+}
+span.footer-navigation a:hover{
+  color:white;
 }
