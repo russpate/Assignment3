@@ -1,0 +1,79 @@
+.sidebar {
+
+  li{
+    list-style:none;
+  }
+
+  h3{
+    color:#0D79C1;
+    font-family:'Oswald', sans-serif;
+    text-transform:uppercase;
+    padding-bottom:3%;
+  }
+
+  p{
+    color:#C7CAD6;
+    font-size:.9em;
+  }
+}
+
+li.authorAvatar{
+  width: 60%;
+  margin: 0 auto;
+  padding: 10% 0 5% 0;
+}
+
+li.authorName{
+  color: #0D79C1;
+  font-weight: 500;
+}
+
+ul.authorSocial{
+  margin: 1% 0 15% 0;
+  color:#C7CAD6;
+
+  li {
+    display: inline;
+    font-size:.85em;
+    padding:0 3%;
+  }
+}
+
+.authorInfo {
+  img {
+    border-radius: 100%;
+    width:inherit;
+  }
+}
+
+span.authorInfo,
+span.advert {
+  margin: 0 auto;
+  text-align: center;
+}
+
+span.advert{
+  display:block;
+  margin-bottom:15%;
+  width:100%;
+  text-align:right;
+}
+
+.adWrap{
+  background-color:#0D79C1;
+  width:100%;
+  margin-bottom:1%;
+}
+
+.advert {
+
+  img{
+    width:inherit;
+    opacity:.5;
+  }
+
+  a{
+      display:block;
+      font-size:.75em;
+  }
+}

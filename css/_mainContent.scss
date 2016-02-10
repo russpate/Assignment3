@@ -1,0 +1,96 @@
+.mainContent {
+
+  a{
+  color:#C7CAD6;
+  }
+
+}
+
+.article {
+
+  li{
+    list-style:none;
+    display:inline;
+  }
+
+  h1{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin:0;
+    line-height:1.25em;
+  }
+
+  p{
+    color:#767B8E;
+    width:80%;
+  }
+  
+}
+
+.credit {
+
+  ul{
+    color:#C7CAD6;
+    font-size:.85em;
+    padding: 1% 0 5% 0;
+  }
+
+  img {
+    vertical-align: middle;
+    border-radius:100%;
+    width:inherit;
+  }
+
+}
+
+.small-authorAvatar{
+  width:3%;
+}
+
+.small-authorName{
+  margin-right:2%;
+  color:#0D79C1;
+  font-weight:500;
+}
+
+span.blockQuote{
+  font-size:2em;
+  border-left:2px solid gray;
+  display:block;
+  margin:5% 0;
+  padding:5%;
+  color:#0D79C1;
+  text-transform:uppercase;
+}
+
+ul.shareLinks{
+  margin:5% 0;
+}
+
+ul.shareLinks li a {
+  font-size: .8em;
+}
+
+.shareLinks {
+
+  i {
+    background-color: rgba(0,0,0,.5);
+    padding: inherit;
+    padding-left: 10px;
+    margin-right: 5px;
+  }
+
+  a {
+    color:white;
+    background-color: #A3B3BF;
+    text-decoration: none;
+    padding: 10px 10px 10px 0;
+    margin-right:2%;
+    transition:.2s all;
+
+    &:hover{
+      background-color:#106db3;
+    }
+  }
+}

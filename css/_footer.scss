@@ -1,0 +1,42 @@
+footer{
+  background-color:#083452;
+  color: #638694;
+  font-size: .9em;
+
+  li{
+    display:inline;
+  }
+}
+
+.footerWrap{
+  padding:3% 0;
+}
+
+.TIYlogoWrap{
+  position:relative;
+
+    img{
+      width:50px;
+      vertical-align:middle;
+    }
+
+    a{
+      margin-right:2%;
+    }
+}
+
+span.footer-navigation{
+  position:absolute;
+  right:0;
+  top:10px;
+
+  a {
+    text-decoration: none;
+    color: #638694;
+    padding-left: 10px;
+
+    &:hover{
+      color:white;
+    }
+  }
+}
